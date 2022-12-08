@@ -75,3 +75,9 @@ while (n <= 10) {
     console.log(n)
     n++;
 }
+
+let p = 0;
+do{
+    console.log(p);
+        p++;
+}while (p < 10);
