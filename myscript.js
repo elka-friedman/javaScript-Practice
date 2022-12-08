@@ -31,4 +31,47 @@
 ///} 
 
 console.log(`ten is less than 20. true or false? ${10<20}`)
+console.log(1==="1")
 
+if (70!=1000) {
+    console.log(`These numbers are different`);
+} 
+else if (100===100) {
+    console.log(`These are the same numbers`);
+}
+else {
+    console.log(`These are different.`);
+}
+
+///array
+
+fruits = ['Banana', 'Mango', 'Apple'];
+console.log(fruits.length);
+console.log(fruits[1]);
+fruits[3]='Grapes';
+console.log(fruits[3]);
+console.log(fruits.length);
+console.log(fruits[fruits.length - 1]);
+let last = fruits.length -1;
+fruits[last + 1]  = 'Kiwi'
+console.log(fruits);
+fruits.push('Cherry');
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+let newArray = fruits.slice(2,5);
+console.log(newArray, newArray.length);
+console.log(fruits.indexOf('Apple'));
+console.log("")
+
+///loops
+
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+}
+
+let n = 0;
+while (n <= 10) {
+    console.log(n)
+    n++;
+}
