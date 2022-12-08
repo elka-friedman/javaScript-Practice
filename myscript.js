@@ -92,7 +92,7 @@
 // }
 
 // fruitsLoop.forEach(
-//     function(f,i,array){
+//     function(f,i,array){              
 //         console.log(f,i,array);
 //     }
 // );
@@ -102,7 +102,23 @@
 function convertenToCelsius() {
     let cTemp;
     cTemp = (10 - 32) * (5 / 9);
-    console.log(`10F in celsius is ${cTemp}`);
+    return cTemp;
 }
 
-convertenToCelsius();
+let temp = convertenToCelsius();
+console.log(`10F in celsius is ${temp}`);
+
+
+function convertToCelsius(fTemp) {
+    let cTemp;
+    cTemp = (fTemp - 32) * (5 / 9);
+    return cTemp;
+}
+
+let anyTemp = convertToCelsius(100);
+console.log(`100F in celsius is ${anyTemp}`)
+
+
+
+                                                     
+
