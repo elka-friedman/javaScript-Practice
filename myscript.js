@@ -30,54 +30,79 @@
 ///    console.log(`${num} is less than 100`);
 ///} 
 
-console.log(`ten is less than 20. true or false? ${10<20}`)
-console.log(1==="1")
+// console.log(`ten is less than 20. true or false? ${10<20}`)
+// console.log(1==="1")
 
-if (70!=1000) {
-    console.log(`These numbers are different`);
-} 
-else if (100===100) {
-    console.log(`These are the same numbers`);
+// if (70!=1000) {
+//     console.log(`These numbers are different`);
+// } 
+// else if (100===100) {
+//     console.log(`These are the same numbers`);
+// }
+// else {
+//     console.log(`These are different.`);
+// }
+
+// ///array
+
+// fruits = ['Banana', 'Mango', 'Apple'];
+// console.log(fruits.length);
+// console.log(fruits[1]);
+// fruits[3]='Grapes';
+// console.log(fruits[3]);
+// console.log(fruits.length);
+// console.log(fruits[fruits.length - 1]);
+// let last = fruits.length -1;
+// fruits[last + 1]  = 'Kiwi'
+// console.log(fruits);
+// fruits.push('Cherry');
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// let newArray = fruits.slice(2,5);
+// console.log(newArray, newArray.length);
+// console.log(fruits.indexOf('Apple'));
+// console.log("")
+
+// ///loops
+
+// for (let i = 0; i <= 5; i++) {
+//     console.log(i);
+// }
+
+// let n = 0;
+// while (n <= 10) {
+//     console.log(n)
+//     n++;
+// }
+
+// let p = 0;
+// do{
+//     console.log(p);
+//         p++;
+// }while (p < 10);
+
+// let fruitsLoop = ['Banana', 'Mango', 'Apple'];
+// for (let index = 0; index < fruitsLoop.length; index++) {
+//     console.log(fruitsLoop[index]);
+// }
+
+// for (let fruit of fruitsLoop) {
+//     console.log(fruit);
+// }
+
+// fruitsLoop.forEach(
+//     function(f,i,array){
+//         console.log(f,i,array);
+//     }
+// );
+
+//functions
+
+function convertenToCelsius() {
+    let cTemp;
+    cTemp = (10 - 32) * (5 / 9);
+    console.log(`10F in celsius is ${cTemp}`);
 }
-else {
-    console.log(`These are different.`);
-}
 
-///array
-
-fruits = ['Banana', 'Mango', 'Apple'];
-console.log(fruits.length);
-console.log(fruits[1]);
-fruits[3]='Grapes';
-console.log(fruits[3]);
-console.log(fruits.length);
-console.log(fruits[fruits.length - 1]);
-let last = fruits.length -1;
-fruits[last + 1]  = 'Kiwi'
-console.log(fruits);
-fruits.push('Cherry');
-console.log(fruits);
-fruits.pop();
-console.log(fruits);
-let newArray = fruits.slice(2,5);
-console.log(newArray, newArray.length);
-console.log(fruits.indexOf('Apple'));
-console.log("")
-
-///loops
-
-for (let i = 0; i <= 5; i++) {
-    console.log(i);
-}
-
-let n = 0;
-while (n <= 10) {
-    console.log(n)
-    n++;
-}
-
-let p = 0;
-do{
-    console.log(p);
-        p++;
-}while (p < 10);
+convertenToCelsius();
